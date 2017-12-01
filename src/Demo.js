@@ -33,7 +33,7 @@ export default class Demo extends Component<Props> {
     return (
       <Container>
         <Text>
-          {this.props.addNum.num}
+          {this.props.addNum.total}
         </Text>
         <Button
           title='+'
